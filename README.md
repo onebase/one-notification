@@ -1,4 +1,4 @@
-OneBase - Notification
+JsonSDK - Notification
 ======================
 
 This is a ready to go notification module which provide email sending service as an API.
@@ -16,13 +16,13 @@ This is a ready to go notification module which provide email sending service as
 ## Usage
 
 ```bash
-docker run --rm -d -p 8080:8080 8090:8090 -v ~/onebase/notification:/data onebase/notification:latest
+docker run --rm -d -p 8080:8080 8090:8090 -v ~/jsonsdk/notification:/data jsonsdk/one-notification:latest
 ```
 
 ## Development
 
 ```bash
-git clone git@github.com:onebase/one-notification.git
+git clone git@github.com:jsonsdk/one-notification.git
 cd one-notification
 fig up
 ```
